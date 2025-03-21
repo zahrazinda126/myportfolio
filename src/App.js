@@ -43,7 +43,7 @@ const App = () => {
       </div>
 
       <button className="theme-toggle" onClick={toggleTheme}>
-        {theme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
+        {theme === "light" ? "Dark Mode" : "Light Mode "}
       </button>
 
       <section>
